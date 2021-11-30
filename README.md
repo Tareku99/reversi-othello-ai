@@ -1,4 +1,7 @@
 # reversi-othello-ai
+Original Source Code:
+https://inventwithpython.com/chapter15.html
+
 Requirements:
 
 <br />-- import random
