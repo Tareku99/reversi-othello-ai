@@ -1,5 +1,5 @@
 # reversi-othello-ai
-<br />Requirements:
+Requirements:
 
 <br />-- import random
 <br />-- import sys
