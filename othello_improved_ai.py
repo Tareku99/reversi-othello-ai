@@ -1,7 +1,6 @@
  # Reversi
 
 import random
-import math
 import sys
 
 def drawBoard(board):
