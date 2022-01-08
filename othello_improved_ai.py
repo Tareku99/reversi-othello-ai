@@ -659,7 +659,7 @@ elif(mode == '2'): #player vs improved ai with show play
         if (playerTile == 'X'):
             print('X (%s) scored %s points. O (%s) scored %s points.' % ('you', scores['X'], 'improved ai', scores['O']))
         else:
-            print('X (%s) scored %s points. O (%) scored %s points.' % ('improved ai', scores['X'], 'you', scores['O']))
+            print('X (%s) scored %s points. O (%s) scored %s points.' % ('improved ai', scores['X'], 'you', scores['O']))
         if scores[playerTile] > scores[computerTile]:
             print('You beat the improved ai by %s points! Congratulations!' % (scores[playerTile] - scores[computerTile]))
         elif scores[playerTile] < scores[computerTile]:
