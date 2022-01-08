@@ -383,8 +383,8 @@ print('Welcome to Reversi!')
 print('Mode 0: original ai vs original ai (control test)')
 print('Mode 9: original ai vs improved ai (statistics test)')
 print('Mode 1: original ai vs improved ai')
-print('Mode 2: player vs original ai')
-print('Mode 3: player vs improved ai')
+print('Mode 2: player vs improved ai')
+print('Mode 3: player vs original ai')
 
 mode = input ("Enter one of the modes: ")
 if(mode == '0'): #test mode for statistics - original ai 1 vs original ai 2
@@ -726,7 +726,7 @@ elif(mode == '3'): #player vs original ai with show play
         if (playerTile == 'X'):
             print('X (%s) scored %s points. O (%s) scored %s points.' % ('you', scores['X'], 'original ai', scores['O']))
         else:
-            print('X (%s) scored %s points. O (%) scored %s points.' % ('original ai', scores['X'], 'you', scores['O']))
+            print('X (%s) scored %s points. O (%s) scored %s points.' % ('original ai', scores['X'], 'you', scores['O']))
         if scores[playerTile] > scores[computerTile]:
             print('You beat the original ai by %s points! Congratulations!' % (scores[playerTile] - scores[computerTile]))
         elif scores[playerTile] < scores[computerTile]:
